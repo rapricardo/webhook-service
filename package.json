@@ -1,0 +1,17 @@
+{
+  "name": "webhook-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "bullmq": "^4.10.4",
+    "@bull-board/api": "^5.0.1",
+    "@bull-board/fastifyAdapter": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.27.2"
+  }
+}
